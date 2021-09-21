@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: whitesmoke;
+}
+
+.bg {
+  height: 45.1rem;
+  background: url("./asset/main-bg.png");
+  background-repeat: no-repeat;
+}
+
+.navBar {
+  padding: 1rem;
+  width: 400px;
+  margin-left: 90px;
+  padding-top: 20px;
+}
+.navBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  /* background-color: darkorange; */
+}
+.navBar a {
+  color: crimson;
+  font-size: 1.2rem;
+  /* margin-left: 10rem; */
+  text-decoration: none;
+}
+.navBar li:hover > a {
+  text-decoration: underline;
+}
+
+.mainContaint {
+  margin-top: 2rem;
+}
+.mainTitle {
+  margin-left: 17%;
+  margin-bottom: 2rem;
+}
+.loginAlert {
+  font-size: 4rem;
+  margin-left: 17%;
+  margin-top: 5rem;
+}
+.pokinfo {
+  display: flex;
+  margin: 20px;
+}
+.pokinfo p {
+  margin: 5px;
+  padding: 3px 10px;
+  border: solid gray 1px;
+  background-color: crimson;
+  /* background-color: gray; */
+}
+.btn-retry {
+  /* margin-left: 590px; */
+  color: black;
+  height: 30px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background: whitesmoke;
+  border: solid gray 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-left: 8rem;
+}
+.form label {
+  border: solid 1px whitesmoke;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: grey;
+}
+.input-username {
+  width: 213px;
+  margin-left: 16px;
+  color: black;
+  background-color: whitesmoke;
+}
+.input-password {
+  width: 213px;
+  margin-left: 20px;
+  color: black;
+  background-color: whitesmoke;
+}
+.btn-submit {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: black;
+  width: 355px;
+}
+.input-submit {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: black;
+  width: 355px;
+}
+.input-checkbox {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-left: 22rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  color: black;
+  /* width: 355px; */
+}
+.pokimage {
+  display: flex;
+  width: 650px;
+  margin: 20px;
+  justify-content: space-around;
+}
+.img-pokemon {
+  height: 200px;
+  image-resolution: from-image 300dpi;
+}
+.mew {
+  position: absolute;
+  top: -30px;
+  left: 90px;
+  height: 120px;
+  transform: scaleX(-1);
+}
+.mewtwoo {
+  position: absolute;
+  top: -10px;
+  left: 415px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
