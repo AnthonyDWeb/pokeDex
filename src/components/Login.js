@@ -16,7 +16,7 @@ const Login = () => {
     const onSubmit = (data) =>{
         console.log(JSON.stringify(data))
         setAuth()
-        history.push("/pokedex")
+        history.push("/pokeDex")
     }
 
     // const rememberMe = (e) =>{

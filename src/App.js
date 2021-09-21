@@ -59,7 +59,7 @@ function App() {
               <nav className="navBar">
                 <ul>
                   <li><img className="mew" src={pokemon.sprites.front_default} alt="" /></li>
-                  <li><Link to ="/pokedex">Home</Link></li>
+                  <li><Link to ="/pokeDex">Home</Link></li>
                   {isLogged ?
                   <li onClick={setAuth}><Link to ="/login">Logout</Link></li>:
                   <li><Link to ="/login">Login</Link></li> }
@@ -69,7 +69,7 @@ function App() {
                   <LoginContext.Provider value={{isLogged, setAuth}}>
                       <pokeContext.Provider value={{pokesave,setpokesave}}>
                           <Switch>
-                              <Route exact path="/pokedex" component={Home} />
+                              <Route exact path="/pokeDex" component={Home} />
                               {isLogged ? 
                               null:
                               <Route path="/login" component={Login} />
