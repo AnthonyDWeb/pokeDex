@@ -52,8 +52,8 @@ const Home = () => {
         console.log("home is logged", isLogged)
         return <>
             <h3 className="loginAlert">Please Login</h3>
-            <p>Username must have 15 character max</p>
-            <p>password must have 6 character min</p>
+            <p className="loginInfo">*Username must have 15 character max</p>
+            <p className="loginInfo">*Password must have 6 character min</p>
         </>
     } 
 
