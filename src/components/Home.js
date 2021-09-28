@@ -50,7 +50,11 @@ const Home = () => {
 
     if (isLogged === false){
         console.log("home is logged", isLogged)
-        return <h3 className="loginAlert">Please Login</h3>
+        return <>
+            <h3 className="loginAlert">Please Login</h3>
+            <p>Username must have 15 character max</p>
+            <p>password must have 6 character min</p>
+        </>
     } 
 
     if (!pokemon){
